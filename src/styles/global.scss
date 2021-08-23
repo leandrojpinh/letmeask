@@ -1,0 +1,30 @@
+:root {
+  --gray: #737380;
+  --border: #a8a8b3;
+  --white3: #e2e2e2;
+  --white2: #f8f8f8;
+  --white: #FFFFFF;
+  --white4: #fefefe;
+  --text-color: #29292e;
+  --aside: #835afd;
+  --red: #ea4335;
+  --pink: #e559f9;
+  --pink-light: #f4f0Ff;
+  --gray-light: #dbdcdd;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white2);
+  color: var(--text-color);
+}
+
+body, input, button, textarea {
+  font: 400 16px 'Roboto', sans-serif;
+}
